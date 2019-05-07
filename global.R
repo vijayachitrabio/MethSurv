@@ -332,7 +332,7 @@ load("UCEC_top_2017.RData")
 load("UCS_top_2017.RData")
 load("UVM_top_2017.RData")
 
-#load covariates files
+# assign the available covariates for each cancer type
 
 UCS_covariate= c("BMI","age","stage")
 LUAD_covariate=c("age","sex","stage")
